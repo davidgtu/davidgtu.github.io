@@ -1,0 +1,21 @@
+body {
+  height: 100%;
+  background-color: #EEEEEE;
+  margin: 10% 0 0 2%;
+  font-family: 'Cabin Condensed', Arial, sans-serif;
+  color: black;
+  font-weight: 300;
+  font-size: 3em;
+  box-shadow: 1px;
+  /*text-shadow: 3px 3px rgba(108, 122, 137, 0.9)*/
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 3px 3px rgba(0,102,130, 0.9);
+}
+
+a:hover {
+  color: rgba(0,102,130, 0.3);
+}
