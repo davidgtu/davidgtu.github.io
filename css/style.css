@@ -11,15 +11,14 @@ body {
   font-weight: 300;
   font-size: 3em;
   box-shadow: 1px;
-  /*text-shadow: 3px 3px rgba(108, 122, 137, 0.9)*/
 }
 
 body a {
   text-decoration: none;
-  color: white;
-  text-shadow: 3px 3px rgba(0,102,130, 0.9);
+  color: #D91E18;
+  /*text-shadow: 3px 3px rgba(192, 57, 43, 0.9);*/
 }
 
 a:hover {
-  color: rgba(0,102,130, 0.3);
+  color: rgba(246, 71, 71, 0.3);
 }
