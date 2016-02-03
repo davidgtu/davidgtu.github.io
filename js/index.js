@@ -7,10 +7,4 @@ $(document).ready(function(){
       showCursor: false,
     });
   });
-  // $('body').hover('.element a', function(event){
-  //   console.log($(this).css())
-  // });
-
-
-
 });
