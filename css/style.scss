@@ -1,6 +1,9 @@
 @font-face {
   font-family: AlrightSans;
-  src: url(AlrightSans-Thin-v3.otf); }
+  src: url(AlrightSans-Thin-v3.otf);
+}
+
+
 body {
   height: 100%;
   background-color: #fff;
@@ -9,12 +12,13 @@ body {
   color: black;
   font-weight: 300;
   font-size: 3em;
-  box-shadow: 1px; }
+  box-shadow: 1px;
+}
 
 a {
   text-decoration: none;
-  color: #D91E18; }
-  a:hover {
-    color: rgba(246, 71, 71, 0.3); }
-
-/*# sourceMappingURL=style.css.map */
+  color: #D91E18;
+  &:hover {
+    color: rgba(246, 71, 71, 0.3);
+  }
+}
