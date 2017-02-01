@@ -5,8 +5,5 @@ $(document).ready(function(){
     //   typeSpeed: 3,
     //   showCursor: false,
     // });
-    $('#button').click(function(){
-      $('.pupper').show()
-    })
 
 });
