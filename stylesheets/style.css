@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700);
+/* line 3, ../sass/style.scss */
+body {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  display: flex;
+  height: 100vh;
+  font-family: "Playfair Display",georgia,serif;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 13, ../sass/style.scss */
+.bg {
+  background: #000;
+  width: 403px;
+  height: 203px;
+  border-radius: 5px;
+}
+
+/* line 20, ../sass/style.scss */
+.card-container {
+  position: absolute;
+}
+/* line 23, ../sass/style.scss */
+.card-container .card {
+  pointer-events: none;
+  transform: translateZ(0);
+  padding: 30px;
+  background: white;
+  border-radius: 5px;
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  display: flex;
+  position: relative;
+}
+/* line 37, ../sass/style.scss */
+.card-container .card:after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  border-radius: 50%;
+  left: 0;
+  bottom: -50px;
+}
+/* line 47, ../sass/style.scss */
+.card-container .card .card-content {
+  margin: auto;
+  text-align: center;
+  transform-style: preserve-3d;
+}
+/* line 53, ../sass/style.scss */
+.card-container .card h1, .card-container .card h2 {
+  transform: translateZ(100px);
+}
+/* line 56, ../sass/style.scss */
+.card-container .card p {
+  transform: translateZ(50px);
+  display: block;
+}
+/* line 60, ../sass/style.scss */
+.card-container .card p.related {
+  transform: translateZ(80px);
+  font-style: italic;
+}
+/* line 65, ../sass/style.scss */
+.card-container .card a {
+  color: #69c6b8;
+  pointer-events: auto;
+}
